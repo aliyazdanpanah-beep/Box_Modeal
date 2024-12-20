@@ -1,0 +1,75 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+
+.wrapper {
+     display: flex;
+     height: 100vh;
+     align-items: center;
+     justify-content: center;
+}
+
+.container {
+     display: flex;
+     height: 300px;
+     width: 25%;
+     position: relative;
+     align-items: center;
+     justify-content: center;
+}
+
+#Modea_buttun {
+     cursor: pointer;
+     color: #fff;
+     outline: none;
+     border: none;
+     padding: 7px 50px;
+     border-radius: 15px;
+     background-color: brown;
+     box-shadow: 1px 1px 5px #000;
+     z-index: 2;
+}
+
+#Box_Modeal {
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+     z-index: 1;
+     text-align: center;
+     position: absolute;
+     border-radius: 10px;
+     background-color: #fff;
+     box-shadow: 0.5px 0.5px 50px #000;
+}
+
+#Box_Modeal p:nth-child(1) {
+     margin-top: 100px;
+}
+
+#Box_Modeal p {
+     margin-top: 10px;
+}
+
+#Box_Modeal_buttun {
+     color: #fff;
+     border: none;
+     cursor: pointer;
+     padding: 5px 30px;
+     border-radius: 5px;
+     position: absolute;
+     background-color: brown;
+     box-shadow: 1px 1px 5px #000;
+     top: 89%;
+     left: 64%;
+}
+
+/* script add Class _____________ Steup */
+
+.New_Box_Modea {
+     opacity: 1;
+     z-index: 3;
+     transition: all ease-in 0.5s;
+}
